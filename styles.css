@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+.navbar{
+    /* border: solid; */
+    background-color: orangered;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.navbar a:hover{
+    color: lightsalmon;
+    transition: margin-right 2s;
+}
+/* hero section */
+/* https: //assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg */
+
+.hero {
+    /* border: solid; */
+        height: 65vh;
+        background-image: url(https://assets.nicepagecdn.com/11a8ddce/3502986/images/pexels-photo-733500.jpg);
+        background-size: cover;
+        background-position: center;
+        background-position: top;
+}
+
+.hero .hero-content{
+    border: black solid;
+    height: 100%;
+}
+
+.hero .hero-content h4 {
+    font-size: 1.2rem;
+    margin-top: 80px;
+    margin-left: 110px;
+}
+
+.hero .hero-content h1{
+    font-size: 3rem;
+    width: 450px;
+    margin: 10px 110px;
+}
+
+.hero .hero-content p{
+    font-size: 1.5rem;
+    width:500px;
+    margin: 10px 110px;
+}
+
+.hero .hero-content .btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 12px;
+        gap: 8px;
+        height: 40px;
+        width: 172px;
+        border: none;
+        background: orangered;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 110px;
+}
+
